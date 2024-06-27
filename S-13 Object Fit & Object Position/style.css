@@ -1,0 +1,23 @@
+
+ #img1{
+    object-fit: fill;
+}
+#img2{
+    object-fit: contain;  
+}
+
+#img3{
+    object-fit: cover;
+    object-position: 10px -10px;
+}
+#img4{
+    object-fit: none;
+}
+#img5{
+    object-fit: scale-down;
+} 
+img{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+}
